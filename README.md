@@ -19,7 +19,7 @@ created by SQL.
 - php-endpoint/HOW-TO-START.md  quick instructions to start the local PHP server.
 
 
-## How To
+## How To & Encryptor 
 
 1. Create a disposable test directory and put whatever worthless files in it. Do NOT run this on any important files or systems.
 2. Copy `ransomware.py` into that directory.
