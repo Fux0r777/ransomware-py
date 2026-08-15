@@ -1,6 +1,6 @@
 # EncryptorPy
 
-PYTHON RANSOMWARE
+# Python Ransomware
 
 ---
 
