@@ -50,6 +50,6 @@ This repository contains code that implements destructive behavior (ransomware).
 - Responsible disclosure & contact
   - If you discover vulnerabilities, unintended destructive behavior, or accidental data exposure related to this project, please report them responsibly by opening a GitHub issue or contacting the repository owner so they can be addressed.
 
-If you would like, I can add this section to the repository README (or create a separate SECURITY.md) and commit it for you.
+
 
 (im gonna be honest i did not write all dis shi)
