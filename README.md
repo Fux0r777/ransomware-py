@@ -8,7 +8,8 @@ PYTHON RANSOMWARE
 
 This repository contains a demonstration of ransomware concepts implemented in Python, along with a simple PHP endpoint for receiving a generated encryption key (C2)
 This is made for Linux but i suppose it works with WSL too.
-created by SQL
+created by SQL.
+
 
 ## Contents
 
@@ -42,8 +43,14 @@ created by SQL
 MIT :)
 
 ---
+# Note
+I did not use Artificial Intelligence for dis. 
+I got inspired by Network chuck's ransomware.
+I will Improve it more. i made this in like a second. 
 
 
+
+    
 ## Security & Safety (Important)
 
 This repository contains code that implements destructive behavior (ransomware). The code is provided strictly for research, education, and defensive testing purposes only.
