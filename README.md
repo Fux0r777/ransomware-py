@@ -44,10 +44,10 @@ MIT :)
 
 ---
 # Note
-I did not use Artificial Intelligence for dis. 
+I did not use Artificial Intelligence for DIRECTLY WRITING THIS CODE. I used it to study and understand. (no larping)
 I got inspired by Network chuck's ransomware.
-I will Improve it more. i made this in like a second. 
-
+I will Improve it more. I made this in like a second. 
+I know its technically not a C2 because its localhost but i don't give a damn. It don't matter.
 
 
     
