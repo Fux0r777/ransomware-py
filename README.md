@@ -1,27 +1,26 @@
 # python-ransomware
 
-Python ransomware demonstration (educational purposes only).
+Python ransomware.
 
 ---
 
 ## Overview
 
-This repository contains a small, controlled demonstration of ransomware concepts implemented in Python, along with a simple PHP endpoint for receiving a generated encryption key.
-
-This project is intended for research, education, and defensive testing in isolated environments only. Do not run this code on systems or files you do not own or have explicit permission to test.
+This repository contains a demonstration of ransomware concepts implemented in Python, along with a simple PHP endpoint for receiving a generated encryption key (C2)
+This is made for Linux but i suppose it works with WSL too.
 
 
 ## Contents
 
-- ransomware.py — main Python script demonstrating file encryption and key transmission.
-- php-endpoint/ — simple PHP web endpoint to receive the encryption key (for local testing).
-- php-endpoint/upload/upload.php — the PHP receiver script.
-- php-endpoint/HOW-TO-START.md — quick instructions to start the local PHP server.
+- ransomware.py  main Python file for the encryption and key transmission to the C2
+- php-endpoint/  PHP web endpoint.
+- php-endpoint/upload/upload.php the PHP receiver script.
+- php-endpoint/HOW-TO-START.md  quick instructions to start the local PHP server.
 
 
-## Quick start (local, safe testing only)
+## How To
 
-1. Create a disposable test directory and put some dummy files in it. Do NOT run this on any important files or systems.
+1. Create a disposable test directory and put whatever worthless files in it. Do NOT run this on any important files or systems.
 2. Copy `ransomware.py` into that directory.
 3. Start the PHP endpoint (if you want to capture the generated key) from the `php-endpoint` folder:
 
@@ -30,25 +29,17 @@ This project is intended for research, education, and defensive testing in isola
    php -S 127.0.0.1:8000
    ```
 
-4. In your test folder, run the Python script (inside an isolated VM or disposable environment):
+4. In your test folder, run the Python script:
 
    ```bash
    python3 ransomware.py
    ```
 
-5. The script encrypts files in the current directory (excluding a few safe filenames) and will POST the generated key to `http://127.0.0.1:8000/upload/upload.php` when the local endpoint is running.
-
-
-## Notes
-
-- The script is intentionally simple and is provided to demonstrate concepts such as symmetric key generation and basic file encryption with the `cryptography` library.
-- This is NOT production or real ransomware code. It lacks many safety checks and protections — it is destructive by design for demonstration purposes.
-
+5. The script encrypts files in the current directory (excluding a few filenames) and will POST the generated key to `http://127.0.0.1:8000/upload/upload.php` when the local endpoint is running.
 
 ## License
 
-(Include license or leave as desired.)
-
+MIT :)
 
 ---
 
