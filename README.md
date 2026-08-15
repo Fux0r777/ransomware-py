@@ -65,10 +65,6 @@ A simple decryptor is provided in `decrypt.py` to reverse the encryption for fil
 
   * The script expects the decryption key to be the same base64 url-safe key produced by `Fernet.generate_key()` (a bytes/ASCII string). If the key is not valid or doesn't match the encrypted data, decryption will fail.
 
-* Safety reminder
-
-  * Only run the decryptor in isolated, disposable environments with test data. Do NOT run on systems or files you do not own or have explicit permission to test.
-
 ## License
 
 MIT :)
@@ -110,4 +106,4 @@ This repository contains code that implements destructive behavior (ransomware).
 
   * If you discover vulnerabilities, unintended destructive behavior, or accidental data exposure related to this project, please report them responsibly by opening a GitHub issue or contacting the project maintainers.
 
-(im gonna be honest i did not write all dis shi)
+(im gonna be honest i did not write all dis shi womp womp this is very professional...)
