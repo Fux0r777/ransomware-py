@@ -1,6 +1,6 @@
-# python-ransomware
+# EncryptorPy
 
-Python ransomware.
+PYTHON RANSOMWARE
 
 ---
 
@@ -8,7 +8,7 @@ Python ransomware.
 
 This repository contains a demonstration of ransomware concepts implemented in Python, along with a simple PHP endpoint for receiving a generated encryption key (C2)
 This is made for Linux but i suppose it works with WSL too.
-
+created by SQL
 
 ## Contents
 
