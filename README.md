@@ -4,6 +4,29 @@ Python Ransomware.
 
 ---
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Security & Safety (Important)
 
 This repository contains code that implements destructive behavior (ransomware). The code is provided strictly for research, education, and defensive testing purposes only.
